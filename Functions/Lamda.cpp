@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	// A lambda is an unnamed function stored in a variable.
+	
 	auto add = [](int first, int second) {
 		return first + second;
 	};
