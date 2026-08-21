@@ -10,7 +10,7 @@ int max(int a, int b) {
 
 int main() {
     int size;
-    cout << "Enter the number of elements you want to compare:  ";
+    cout << "Enter the number of elements you want to:  ";
     cin >> size;
 
     int* arr = new int[size];
@@ -21,7 +21,7 @@ int main() {
 
     int minValue = arr[0];
     int maxValue = arr[0];
-git
+
     for (int i = 1; i < size; i++) {
         minValue = min(minValue, arr[i]);
         maxValue = max(maxValue, arr[i]);
