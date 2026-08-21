@@ -20,6 +20,6 @@ int main() {
 
     cout << endl;
 
-    delete[] numbers; // Free the allocated memory
+    delete[] numbers;
     return 0;
 }
