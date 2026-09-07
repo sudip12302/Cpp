@@ -16,8 +16,7 @@ int main() {
     cout << "Enter number of columns of matrix B: ";
     cin >> colsB;
 
-    // Matrix multiplication is possible only when
-    // columns of A = rows of B
+    
     if (colsA != rowsB) {
         cout << "Matrix multiplication is not possible." << endl;
         cout << "Number of columns of A must equal number of rows of B." << endl;
