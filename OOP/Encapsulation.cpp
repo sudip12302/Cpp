@@ -15,7 +15,6 @@ public:
     }
 };
 
-
 int main() {
     BankAccount account;
 
