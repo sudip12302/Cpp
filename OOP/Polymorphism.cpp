@@ -21,7 +21,6 @@ public:
         cout << "Cat meows" << endl;
     }
 };
-
 int main() {
     Dog dog;
     Cat cat;
